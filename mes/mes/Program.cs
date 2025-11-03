@@ -14,9 +14,14 @@ namespace mes
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Login login = new Login();
+            DialogResult dialogResult  = login.ShowDialog();
+            if (dialogResult == DialogResult.OK)
+            {
+                Application.Run(new MainWindow());
+            }
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
         }
     }
 }
