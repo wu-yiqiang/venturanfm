@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace mes.Service
 {
-    internal interface IUserService
+    public interface IUserService
     {
         /// <summary>
         ///  登陆
         /// </summary>
-        /// <param name="email">邮箱</param>
-        /// <param name="password">密码</param>
         /// <returns></returns>
-        bool Login(User user);
+       bool Login(User user);
+       bool Register(User user);
     }
 }

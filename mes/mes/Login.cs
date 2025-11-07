@@ -1,6 +1,8 @@
 ﻿using mes.Models;
+using mes.Service;
 using mes.ServiceImpl;
 using mes.Utils;
+using mes.Components;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,12 +13,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.Design;
-
 namespace mes
 {
     public partial class Login : Form
     {
-        private Service.IUserService userService { get; set; }
+        private IUserService userService { get; set; }
         private void Login_Load(object sender, EventArgs e)
         {
             userService = new UserServiceImpl();
@@ -33,17 +34,13 @@ namespace mes
             user.Password = Password.Text.Trim();
             if (userService.Login(user))
             {
-                MessageBox.Show("登录成功");
-                //MainWindow mainWindow = new MainWindow();
-                //mainWindow.Show();
+                //MessageBox.Show("登录成功");
+                Alert.Info("Login Successful");
                 this.DialogResult = DialogResult.OK;
-
             }
             else
             {
                 MessageBox.Show("登陆失败");
-          
-
             }
         }
 
@@ -68,12 +65,12 @@ namespace mes
         {
             string email = Email.Text.Trim();
             string password = Password.Text.Trim();
-            bool isEmailChecked = UserCheckUtils.CheckedInput(email);
-            bool isPwdChecked = UserCheckUtils.CheckedInput(password);
-            if (!isEmailChecked || !isPwdChecked) {
-                this.HandleLogin.Enabled = false;
-                return;
-            }
+            //bool isEmailChecked = UserCheckUtils.CheckedInput(email);
+            //bool isPwdChecked = UserCheckUtils.CheckedInput(password);
+            //if (!isEmailChecked || !isPwdChecked) {
+            //    this.HandleLogin.Enabled = false;
+            //    return;
+            //}
             this.HandleLogin.Enabled = true;
         }
 
@@ -81,19 +78,14 @@ namespace mes
         {
             string email = Email.Text.Trim();
             string password = Password.Text.Trim();
-            bool isEmailChecked = UserCheckUtils.CheckedInput(email);
-            bool isPwdChecked = UserCheckUtils.CheckedInput(password);
-            if (!isEmailChecked || !isPwdChecked)
-            {
-                this.HandleLogin.Enabled = false;
-                return;
-            }
+            //bool isEmailChecked = UserCheckUtils.CheckedInput(email);
+            //bool isPwdChecked = UserCheckUtils.CheckedInput(password);
+            //if (!isEmailChecked || !isPwdChecked)
+            //{
+            //    this.HandleLogin.Enabled = false;
+            //    return;
+            //}
             this.HandleLogin.Enabled = true;
-        }
-
-        private bool CheckedInput(string email)
-        {
-            throw new NotImplementedException();
         }
     }
 }

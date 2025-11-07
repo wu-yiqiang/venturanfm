@@ -1,4 +1,7 @@
-﻿using System;
+﻿using mes.Models;
+using mes.Service;
+using mes.ServiceImpl;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +15,11 @@ namespace mes
 {
     public partial class Register : Form
     {
+        public IUserService userService { get; set; }
+        private void Register_Load(object sender, EventArgs e)
+        {
+            userService = new UserServiceImpl();
+        }
         public Register()
         {
             InitializeComponent();
@@ -34,7 +42,13 @@ namespace mes
 
         private void uiButton3_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
 
+        private void HandleRegister_Click(object sender, EventArgs e)
+        {
+            User user = new User();
+            userService.Register(user);
         }
     }
 }

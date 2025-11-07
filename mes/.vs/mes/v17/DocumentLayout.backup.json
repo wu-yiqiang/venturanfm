@@ -3,40 +3,68 @@
   "WorkspaceRootPath": "D:\\pro\\venturanfm\\mes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\serviceimpl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\serviceimpl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\register.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\register.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\utils\\usercheckutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\models\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\models\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\utils\\usercheckutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\utils\\usercheckutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|d:\\pro\\venturanfm\\mes\\mes\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|D:\\pro\\venturanfm\\mes\\mes\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD8EFE0-0062-41EA-B699-F045AE156463}|mes\\mes.csproj|solutionrelative:mes\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,108 +74,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Register.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Register.cs",
+              "RelativeDocumentMoniker": "mes\\Register.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Register.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "mes\\Register.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T04:08:02.061Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "mes\\Login.Designer.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Login.Designer.cs",
+              "RelativeToolTip": "mes\\Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T12:28:23.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.resx",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Login.resx",
+              "RelativeDocumentMoniker": "mes\\Login.resx",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Login.resx",
+              "RelativeToolTip": "mes\\Login.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-04T12:28:20.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Program.cs",
               "RelativeDocumentMoniker": "mes\\Program.cs",
-              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Program.cs*",
-              "RelativeToolTip": "mes\\Program.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA4wBcAAAA1AAAAAAAAAA==",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Program.cs",
+              "RelativeToolTip": "mes\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:26:17.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T14:26:17.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.cs",
-              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\MainWindow.cs",
-              "RelativeDocumentMoniker": "mes\\MainWindow.cs",
-              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\MainWindow.cs",
-              "RelativeToolTip": "mes\\MainWindow.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:37:20.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\MainWindow.cs",
-              "RelativeDocumentMoniker": "mes\\MainWindow.cs",
-              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\MainWindow.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "mes\\MainWindow.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:32:40.331Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserCheckUtils.cs",
-              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Utils\\UserCheckUtils.cs",
-              "RelativeDocumentMoniker": "mes\\Utils\\UserCheckUtils.cs",
-              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Utils\\UserCheckUtils.cs",
-              "RelativeToolTip": "mes\\Utils\\UserCheckUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:28:36.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Login.cs",
               "RelativeDocumentMoniker": "mes\\Login.cs",
-              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Login.cs",
-              "RelativeToolTip": "mes\\Login.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAMBBwBoAAAAJAAAAAAAAAA==",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Login.cs*",
+              "RelativeToolTip": "mes\\Login.cs*",
+              "ViewState": "AgIAADYAAAAAAAAAAAASwEUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T14:10:21.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Login.cs",
-              "RelativeDocumentMoniker": "mes\\Login.cs",
-              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Login.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "mes\\Login.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:10:10.57Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Models\\User.cs",
-              "RelativeDocumentMoniker": "mes\\Models\\User.cs",
-              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Models\\User.cs",
-              "RelativeToolTip": "mes\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:05:46.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserServiceImpl.cs",
-              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\ServiceImpl\\UserServiceImpl.cs",
-              "RelativeDocumentMoniker": "mes\\ServiceImpl\\UserServiceImpl.cs",
-              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\ServiceImpl\\UserServiceImpl.cs",
-              "RelativeToolTip": "mes\\ServiceImpl\\UserServiceImpl.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAxwBAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:01:09.379Z",
               "EditorCaption": ""
             },
             {
@@ -158,10 +146,134 @@
               "RelativeDocumentMoniker": "mes\\Service\\IUserService.cs",
               "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Service\\IUserService.cs",
               "RelativeToolTip": "mes\\Service\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T13:51:06.196Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserServiceImpl.cs",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\ServiceImpl\\UserServiceImpl.cs",
+              "RelativeDocumentMoniker": "mes\\ServiceImpl\\UserServiceImpl.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\ServiceImpl\\UserServiceImpl.cs*",
+              "RelativeToolTip": "mes\\ServiceImpl\\UserServiceImpl.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:01:09.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.Designer.cs",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Register.Designer.cs",
+              "RelativeDocumentMoniker": "mes\\Register.Designer.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Register.Designer.cs",
+              "RelativeToolTip": "mes\\Register.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T04:56:54.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Register.cs",
+              "RelativeDocumentMoniker": "mes\\Register.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Register.cs",
+              "RelativeToolTip": "mes\\Register.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIA2wBQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T04:56:19.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Models\\User.cs",
+              "RelativeDocumentMoniker": "mes\\Models\\User.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Models\\User.cs",
+              "RelativeToolTip": "mes\\Models\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:05:46.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Login.cs",
+              "RelativeDocumentMoniker": "mes\\Login.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Login.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "mes\\Login.cs [\u8BBE\u8BA1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:10:10.57Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDb.cs",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Models\\UserDb.cs",
+              "RelativeDocumentMoniker": "mes\\Models\\UserDb.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Models\\UserDb.cs",
+              "RelativeToolTip": "mes\\Models\\UserDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T14:42:03.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.resx",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Register.resx",
+              "RelativeDocumentMoniker": "mes\\Register.resx",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Register.resx",
+              "RelativeToolTip": "mes\\Register.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-04T12:28:30.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserCheckUtils.cs",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\Utils\\UserCheckUtils.cs",
+              "RelativeDocumentMoniker": "mes\\Utils\\UserCheckUtils.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\Utils\\UserCheckUtils.cs",
+              "RelativeToolTip": "mes\\Utils\\UserCheckUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:28:36.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\MainWindow.cs",
+              "RelativeDocumentMoniker": "mes\\MainWindow.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\MainWindow.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "mes\\MainWindow.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:32:40.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "D:\\pro\\venturanfm\\mes\\mes\\MainWindow.cs",
+              "RelativeDocumentMoniker": "mes\\MainWindow.cs",
+              "ToolTip": "D:\\pro\\venturanfm\\mes\\mes\\MainWindow.cs",
+              "RelativeToolTip": "mes\\MainWindow.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAWwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:37:20.615Z"
             }
           ]
         }

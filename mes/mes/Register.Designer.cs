@@ -71,14 +71,19 @@
             this.HandleRegister.TabIndex = 4;
             this.HandleRegister.Text = "注册";
             this.HandleRegister.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.HandleRegister.Click += new System.EventHandler(this.HandleRegister_Click);
             // 
             // HandleCancel
             // 
             this.HandleCancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.HandleCancel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.HandleCancel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(128)))), ((int)(((byte)(158)))));
             this.HandleCancel.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.HandleCancel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(128)))), ((int)(((byte)(158)))));
             this.HandleCancel.Location = new System.Drawing.Point(39, 265);
             this.HandleCancel.MinimumSize = new System.Drawing.Size(1, 1);
             this.HandleCancel.Name = "HandleCancel";
+            this.HandleCancel.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(128)))), ((int)(((byte)(158)))));
             this.HandleCancel.Size = new System.Drawing.Size(100, 35);
             this.HandleCancel.TabIndex = 5;
             this.HandleCancel.Text = "取消";
@@ -180,6 +185,7 @@
             this.Name = "Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
+            this.Load += new System.EventHandler(this.Register_Load);
             this.ResumeLayout(false);
 
         }
