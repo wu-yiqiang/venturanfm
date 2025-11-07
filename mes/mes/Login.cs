@@ -34,8 +34,7 @@ namespace mes
             user.Password = Password.Text.Trim();
             if (userService.Login(user))
             {
-                //MessageBox.Show("登录成功");
-                Alert.Info("Login Successful");
+                Messages.Success("Login Successful");
                 this.DialogResult = DialogResult.OK;
             }
             else
@@ -65,12 +64,13 @@ namespace mes
         {
             string email = Email.Text.Trim();
             string password = Password.Text.Trim();
-            //bool isEmailChecked = UserCheckUtils.CheckedInput(email);
-            //bool isPwdChecked = UserCheckUtils.CheckedInput(password);
-            //if (!isEmailChecked || !isPwdChecked) {
-            //    this.HandleLogin.Enabled = false;
-            //    return;
-            //}
+            bool isEmailChecked = UserCheckUtils.CheckedInput(email);
+            bool isPwdChecked = UserCheckUtils.CheckedInput(password);
+            if (!isEmailChecked || !isPwdChecked)
+            {
+                this.HandleLogin.Enabled = false;
+                return;
+            }
             this.HandleLogin.Enabled = true;
         }
 
@@ -78,13 +78,13 @@ namespace mes
         {
             string email = Email.Text.Trim();
             string password = Password.Text.Trim();
-            //bool isEmailChecked = UserCheckUtils.CheckedInput(email);
-            //bool isPwdChecked = UserCheckUtils.CheckedInput(password);
-            //if (!isEmailChecked || !isPwdChecked)
-            //{
-            //    this.HandleLogin.Enabled = false;
-            //    return;
-            //}
+            bool isEmailChecked = UserCheckUtils.CheckedInput(email);
+            bool isPwdChecked = UserCheckUtils.CheckedInput(password);
+            if (!isEmailChecked || !isPwdChecked)
+            {
+                this.HandleLogin.Enabled = false;
+                return;
+            }
             this.HandleLogin.Enabled = true;
         }
     }

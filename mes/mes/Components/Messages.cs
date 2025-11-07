@@ -9,16 +9,17 @@ using System.Windows.Forms;
 
 namespace mes.Components
 {
-    public partial class Alert : Component
+    public partial class Messages : Component
     {
-        public Alert()
+        public Messages()
         {
             InitializeComponent();
         }
 
-        public Alert(IContainer container)
+        public Messages(IContainer container)
         {
             container.Add(this);
+
             InitializeComponent();
         }
         public static void Error(string message)

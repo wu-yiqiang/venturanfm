@@ -57,11 +57,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\Alert.cs">
+    <Compile Include="Components\Messages.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Components\Alert.Designer.cs">
-      <DependentUpon>Alert.cs</DependentUpon>
+    <Compile Include="Components\Messages.Designer.cs">
+      <DependentUpon>Messages.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>

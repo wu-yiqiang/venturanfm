@@ -1,6 +1,6 @@
 ﻿namespace mes.Components
 {
-    partial class Alert
+    partial class Messages
     {
         /// <summary>
         /// 必需的设计器变量。
