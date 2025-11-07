@@ -39,7 +39,7 @@ namespace mes
             }
             else
             {
-                MessageBox.Show("登陆失败");
+                Messages.Error("Login Failed");
             }
         }
 

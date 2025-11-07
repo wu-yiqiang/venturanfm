@@ -1,4 +1,5 @@
-﻿using mes.Models;
+﻿using mes.Components;
+using mes.Models;
 using mes.Service;
 using System;
 using System.Collections.Generic;
@@ -17,20 +18,15 @@ namespace mes.ServiceImpl
             
             if (user.Email == null)
             {
-                MessageBox.Show("请填写邮箱地址");
-                ShowAlert("请填写邮箱地址");
+                Messages.Error("请填写邮箱地址");
                 return false;
             }
             if (user.Password == null)
             {
-                ShowAlert("请填写密码");
+                Messages.Error("请填写密码");
                 return false;
             }
             return true;
-        }
-        public void ShowAlert(string message)
-        {
-            MessageBox.Show(message, "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         public bool Register(User user)
         {
