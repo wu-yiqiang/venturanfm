@@ -1,25 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using AntdUI;
 using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace mes.Components
 {
-    public partial class Messages : Component
-    {
+    public partial class Messages : UserControl
+{
+        private AntdUI.Window window;
+
         public Messages()
         {
             InitializeComponent();
         }
 
-        public Messages(IContainer container)
+        public Messages(IContainer container, AntdUI.Window _window)
         {
+            window = _window;
             container.Add(this);
-
             InitializeComponent();
         }
         public static void Error(string message)
@@ -28,15 +25,19 @@ namespace mes.Components
         }
         public static void Success(string message)
         {
-            MessageBox.Show(message, "Successful", MessageBoxButtons.OK);
+            
         }
         public static void Warning(string message)
         {
-            MessageBox.Show(message, "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            MessageBox.Show(message, "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
         public static void Info(string message)
         {
             MessageBox.Show(message, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        public static void Question(string message)
+        {
+            MessageBox.Show(message, "Question", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
     }
 }
