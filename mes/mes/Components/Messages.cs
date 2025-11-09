@@ -37,7 +37,7 @@ namespace mes.Components
         }
         public static void Question(string message)
         {
-            MessageBox.Show(message, "Question", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            MessageBox.Show(message, "Questions", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
     }
 }
