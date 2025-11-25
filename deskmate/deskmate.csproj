@@ -9,8 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="WPF-UI" Version="4.1.0" />
-    <PackageReference Include="WPF-UI-Enhanced" Version="10.0.0" />
+    <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.10.2.1" />
   </ItemGroup>
 
 </Project>

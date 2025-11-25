@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpfdemo
+namespace deskmate
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,11 +19,6 @@ namespace Wpfdemo
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void HandleLogin(object sender, RoutedEventArgs e)
-        {
-            Console.WriteLine("sdsds");
         }
     }
 }
