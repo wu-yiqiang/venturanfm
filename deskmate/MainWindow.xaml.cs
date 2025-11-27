@@ -20,5 +20,10 @@ namespace deskmate
         {
             InitializeComponent();
         }
+
+        private void Handle_Login(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

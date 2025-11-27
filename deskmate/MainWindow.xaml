@@ -13,7 +13,9 @@
         mc:Ignorable="d"
         Title="Deskmate" Height="450" Width="800">
     <ikw:SimpleStackPanel VerticalAlignment="Center" Spacing="5">
-        <Button Content="登录" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+        <Button Content="登录" HorizontalAlignment="Center" Click="Handle_Login"/>
+        <ui:InfoBar x:Name="TestInfoBar1" Title="Title" IsOpen="True" Severity="Error"
+    Message="操作失败" />
     </ikw:SimpleStackPanel>
 
 </Window>
