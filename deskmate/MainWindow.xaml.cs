@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,11 +20,13 @@ namespace deskmate
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = this;
         }
-
+        public string Email { get; set; } = "7777";
         private void Handle_Login(object sender, RoutedEventArgs e)
         {
-
+            // TestInfoBar1.IsOpen = true;
+            Console.WriteLine("娘仨");
         }
     }
 }

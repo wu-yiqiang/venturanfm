@@ -1,5 +1,4 @@
 ﻿<Window x:Class="deskmate.MainWindow"
-
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -11,11 +10,10 @@
         ui:WindowHelper.SystemBackdropType="Mica"
         ui:TitleBar.Height="36"
         mc:Ignorable="d"
-        Title="Deskmate" Height="450" Width="800">
+        Title="Deskmate" Height="450" Width="800" Icon="/assets/logo.ico">
+
     <ikw:SimpleStackPanel VerticalAlignment="Center" Spacing="5">
-        <Button Content="登录" HorizontalAlignment="Center" Click="Handle_Login"/>
-        <ui:InfoBar x:Name="TestInfoBar1" Title="Title" IsOpen="True" Severity="Error"
-    Message="操作失败" />
+        <TextBox Text="{Binding Email}" AutomationProperties.Name="simple TextBox" />
     </ikw:SimpleStackPanel>
 
 </Window>
