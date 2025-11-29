@@ -12,8 +12,40 @@
         mc:Ignorable="d"
         Title="Deskmate" Height="450" Width="800" Icon="/assets/logo.ico">
 
-    <ikw:SimpleStackPanel VerticalAlignment="Center" Spacing="5">
-        <TextBox Text="{Binding Email}" AutomationProperties.Name="simple TextBox" />
-    </ikw:SimpleStackPanel>
+    <Grid x:Name="Control1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+        <Border  Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="0" Margin="10" Padding="10"  Background="#439D84">
+            <TextBlock  Text="参数区域" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="16"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="3" Margin="10" Padding="10"  VerticalAlignment="Center" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70" />
+                    <ColumnDefinition Width="120"  />
+                    <ColumnDefinition Width="120"  />
+                    <ColumnDefinition  Width="120" />
+                    <ColumnDefinition  Width="90" />
+                    <ColumnDefinition  Width="70" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="发送周期" VerticalAlignment="Center"  />
+                <ui:NumberBox Grid.Row="0" Grid.Column="1" Width="120"  Value="10"  Height="32" />
+                <TextBox Grid.Row="0" Grid.Column="2"  IsReadOnly="True"  Height="32" />
+                <TextBox Grid.Row="0" Grid.Column="3" IsReadOnly="True"  Height="32" />
+                <Button x:Name="Button1"  Grid.Row="0" Grid.Column="4"
+    Content="计数清零" IsEnabled="True" />
+                <Button x:Name="Button2" Grid.Row="0" Grid.Column="5"
+    Content="退出" IsEnabled="True" />
+
+            </Grid>
+        </Border>
+
+    </Grid>
 
 </Window>
