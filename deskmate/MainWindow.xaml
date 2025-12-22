@@ -10,7 +10,7 @@
         ui:WindowHelper.SystemBackdropType="Mica"
         ui:TitleBar.Height="36"
         mc:Ignorable="d"
-        Title="Deskmate" Height="450" Width="800" Icon="/assets/logo.ico">
+        Title="Deskmate" Height="800" Width="1000" Icon="/assets/logo.ico">
 
     <Grid x:Name="Control1">
         <Grid.ColumnDefinitions>
@@ -21,8 +21,56 @@
             <RowDefinition />
             <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
-        <Border  Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="0" Margin="10" Padding="10"  Background="#439D84">
-            <TextBlock  Text="参数区域" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="16"/>
+        <Border  Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="0" Margin="10" Padding="10">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="360" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Border  Grid.Row="0"  Grid.RowSpan="3" Grid.Column="0" >
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Border  Grid.Row="0"  Grid.ColumnSpan="3" Grid.Column="0" Padding="10" >
+                            <Grid >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="40" />
+                                    <RowDefinition Height="40"  />
+                                    <RowDefinition  Height="40" />
+                                </Grid.RowDefinitions>
+                                <Grid >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="70" />
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="波特率" VerticalAlignment="Center"  />
+                                    <ComboBox Grid.Row="0" Grid.ColumnSpan="3"  Grid.Column="1"
+    DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ui:Page}}}"
+    IsEditable="True"
+    ItemsSource="{Binding FontSizes}" />
+                                </Grid>
+
+                                                            串口 波特率  校验位 数据位 停止位
+
+                            </Grid>
+                        </Border>
+                        <Border  Grid.Row="1" Grid.ColumnSpan="3" Grid.Column="0" Padding="10"  Background="#669666">
+                        </Border>
+                    </Grid>
+                </Border>
+                <Border  Grid.Row="0" Grid.RowSpan="3" Grid.Column="1" Padding="10"  Background="#666666">
+                </Border>
+            </Grid>
         </Border>
         <Border Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="3" Margin="10" Padding="10"  VerticalAlignment="Center" >
             <Grid>
