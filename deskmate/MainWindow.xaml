@@ -47,21 +47,90 @@
                                     <RowDefinition Height="40" />
                                     <RowDefinition Height="40"  />
                                     <RowDefinition  Height="40" />
+                                    <RowDefinition  Height="40" />
+                                    <RowDefinition  Height="40" />
+                                    <RowDefinition  Height="40" />
                                 </Grid.RowDefinitions>
-                                <Grid >
+                                <Grid  Grid.Row="0" Grid.Column="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="70" />
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="串口" VerticalAlignment="Center"  />
+                                    <StackPanel  Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3">
+                                        <StackPanel.Resources>
+                                            <local:SerialPorts x:Key="serialPort"/>
+                                        </StackPanel.Resources>
+                                        <ComboBox
+        ItemsSource="{StaticResource serialPort}"
+        Width="200"
+        IsEditable="true"
+        IsReadOnly="true"/>
+
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Grid.Row="1" Grid.Column="0">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="70" />
                                         <ColumnDefinition />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Row="0" Grid.Column="0" Text="波特率" VerticalAlignment="Center"  />
-                                    <ComboBox Grid.Row="0" Grid.ColumnSpan="3"  Grid.Column="1"
-    DataContext="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ui:Page}}}"
-    IsEditable="True"
-    ItemsSource="{Binding FontSizes}" />
+                                    <StackPanel  Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3">
+                                        <StackPanel.Resources>
+                                            <local:BaudRates x:Key="baudRate"/>
+                                        </StackPanel.Resources>
+                                        <ComboBox
+ItemsSource="{StaticResource baudRate}"
+Width="200"
+IsEditable="true"
+IsReadOnly="true"/>
+
+                                    </StackPanel>
                                 </Grid>
+                                <Grid Grid.Row="2" Grid.Column="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="70" />
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="校验位" VerticalAlignment="Center"  />
+                                    <StackPanel  Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3">
+                                        <StackPanel.Resources>
+                                            <local:ParityBits x:Key="parityBit"/>
+                                        </StackPanel.Resources>
+                                        <ComboBox
+ItemsSource="{StaticResource parityBit}"
+Width="200"
+IsEditable="true"
+IsReadOnly="true"/>
 
-                                                            串口 波特率  校验位 数据位 停止位
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Grid.Row="3" Grid.Column="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="70" />
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="数据位" VerticalAlignment="Center"  />
+                                    <StackPanel  Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3">
+                                        <StackPanel.Resources>
+                                            <local:SerialPorts x:Key="serialPort"/>
+                                        </StackPanel.Resources>
+                                        <ComboBox
+ItemsSource="{StaticResource serialPort}"
+Width="200"
+IsEditable="true"
+IsReadOnly="true"/>
 
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Grid.Row="4" Grid.Column="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="70" />
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="停止位" VerticalAlignment="Center"  />
+                                    <ui:ToggleSwitch Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" OnContent="" OffContent="" />
+                                </Grid>
                             </Grid>
                         </Border>
                         <Border  Grid.Row="1" Grid.ColumnSpan="3" Grid.Column="0" Padding="10"  Background="#669666">
